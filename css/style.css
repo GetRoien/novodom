@@ -3544,7 +3544,7 @@ body { padding-top: 70px; margin-bottom: 70px; background-color: #e7f1f5; }
 
 .footer { position: absolute; bottom: 0; width: 100%; /* Set the fixed height of the footer here */ height: 50px; }
 
-.footer .copyright { margin: 0; line-height: 50px; }
+.footer .copyright { margin: 0; font-size: 12px; line-height: 50px; }
 
 /* Login & Register from */
 .form-signin { max-width: 330px; padding: 20px; margin: 0 auto; background: #fff; }
