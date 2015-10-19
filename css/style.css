@@ -3474,7 +3474,9 @@ a.list-group-item:hover, button.list-group-item:hover, a.list-group-item:focus, 
 
 .fa-fonticons:before { content: "\f280"; }
 
-body { padding-top: 70px; background-color: #e7f1f5; }
+html { position: relative; min-height: 100%; }
+
+body { padding-top: 70px; margin-bottom: 70px; background-color: #e7f1f5; }
 
 .box-shadow, .main, .advert-card-item:hover, .form-signin { box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1); }
 
@@ -3540,7 +3542,9 @@ body { padding-top: 70px; background-color: #e7f1f5; }
 
 .gallery-item { margin: 5px; width: 40px; height: 40px; display: inline-block; }
 
-.footer .copyright { padding: 15px 0; }
+.footer { position: absolute; bottom: 0; width: 100%; /* Set the fixed height of the footer here */ height: 50px; }
+
+.footer .copyright { margin: 0; line-height: 50px; }
 
 /* Login & Register from */
 .form-signin { max-width: 330px; padding: 20px; margin: 0 auto; background: #fff; }
